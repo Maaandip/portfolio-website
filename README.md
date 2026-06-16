@@ -7,7 +7,7 @@ live at — https://portfolio-website-maaandip.vercel.app
 
 - projects with github links and stats
 - achievements section
-- skills breakdown
+- skills breakdown &
 - contact section
 
 ## built with
