@@ -1,0 +1,25 @@
+# portfolio website
+
+my personal portfolio website built with vanilla HTML, CSS and JavaScript.
+live at — https://portfolio-website-maaandip.vercel.app
+
+## what's on it
+
+- projects with github links and stats
+- achievements section
+- skills breakdown
+- contact section
+
+## built with
+
+- HTML / CSS / JavaScript — no frameworks
+- deployed on Vercel
+
+## run locally
+
+just open `index.html` in your browser — no setup needed.
+
+or use live server in VS Code:
+1. install Live Server extension
+2. right click `index.html`
+3. click "Open with Live Server"
