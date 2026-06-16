@@ -12,7 +12,7 @@ live at — https://portfolio-website-maaandip.vercel.app
 
 ## built with
 
-- HTML / CSS / JavaScript — no frameworks(just for Showcase)
+- HTML / CSS / JavaScript — no frameworks(just to Showcase)
 - deployed on Vercel
 
 
