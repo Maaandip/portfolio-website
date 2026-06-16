@@ -1,4 +1,4 @@
-# portfolio website
+# portfolio_website
 
 my personal portfolio website built with vanilla HTML, CSS and JavaScript.
 live at — https://portfolio-website-maaandip.vercel.app
