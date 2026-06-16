@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monodip Malakar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="nav-logo">MM</div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#achievements">achievements</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- hero -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <p class="hero-greeting">hey, i'm</p>
+      <h1 class="hero-name">Monodip Malakar</h1>
+      <p class="hero-title">
+        <span class="typed"></span>
+      </p>
+      <p class="hero-bio">
+        B.Tech CSE (Cyber Security) student at NFSU — building things at the intersection of
+        quantitative finance, low-latency systems, and machine learning.
+        Ranked <strong>#27 worldwide</strong> in CME Group Trading Competition.
+      </p>
+      <div class="hero-buttons">
+        <a href="https://github.com/Maaandip" target="_blank" class="btn btn-primary">
+          <i class="fab fa-github"></i> github
+        </a>
+        <a href="https://linkedin.com/in/monodip-malakar-770149366" target="_blank" class="btn btn-secondary">
+          <i class="fab fa-linkedin"></i> linkedin
+        </a>
+        <a href="mailto:monodipmalakar00@gmail.com" class="btn btn-secondary">
+          <i class="fas fa-envelope"></i> email
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-block">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-title">monodip.ml</span>
+        </div>
+        <pre class="code-content">
+<span class="kw">let</span> monodip = {
+  name    = <span class="str">"Monodip Malakar"</span>;
+  college = <span class="str">"NFSU"</span>;
+  degree  = <span class="str">"B.Tech CSE"</span>;
+  langs   = [<span class="str">"C++"</span>; <span class="str">"Python"</span>; 
+             <span class="str">"OCaml"</span>; <span class="str">"Java"</span>];
+  domains = [<span class="str">"HFT"</span>; <span class="str">"Quant"</span>; 
+             <span class="str">"ML"</span>];
+  rank    = <span class="str">"#27 worldwide"</span>;
+}</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- achievements -->
+  <section class="section" id="achievements">
+    <h2 class="section-title">achievements</h2>
+    <div class="achievements-grid">
+      <div class="achievement-card">
+        <div class="achievement-icon">🏆</div>
+        <h3>#27 Worldwide</h3>
+        <p>CME Group Trading Competition — Global student trading tournament</p>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon">🎯</div>
+        <h3>IMC Prosperity 4</h3>
+        <p>Global Algorithmic Trading Competition Finalist</p>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-icon">⚡</div>
+        <h3>Top 20</h3>
+        <p>IIT Guwahati National Quant Hackathon</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section class="section" id="projects">
+    <h2 class="section-title">projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-lang cpp">C++</span>
+          <div class="project-links">
+            <a href="https://github.com/Maaandip/low-latency-order-book" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Low-Latency Order Book Simulator</h3>
+        <p>High-performance limit order book supporting price-time priority matching. Processes 480K+ orders/sec with lock-free atomic operations and custom memory pooling.</p>
+        <div class="project-tags">
+          <span>C++</span><span>HFT</span><span>Lock-Free</span><span>FIX Protocol</span>
+        </div>
+        <div class="project-stats">
+          <span>480K+ orders/sec</span>
+          <span>sub-microsecond latency</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-lang python">Python</span>
+          <div class="project-links">
+            <a href="https://github.com/Maaandip/repo-implied-volatility-prediction" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Implied Volatility Prediction</h3>
+        <p>Stacked ensemble model (XGBoost + LightGBM + CatBoost + Ridge) to predict implied volatility of NSE options contracts.</p>
+        <div class="project-tags">
+          <span>XGBoost</span><span>LightGBM</span><span>CatBoost</span><span>Options</span>
+        </div>
+        <div class="project-stats">
+          <span>97.48% accuracy</span>
+          <span>RMSE: 0.6145</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-lang cpp">C++ + Python</span>
+          <div class="project-links">
+            <a href="https://github.com/Maaandip/portfolio-optimiser" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Portfolio Optimiser</h3>
+        <p>Monte Carlo simulation running 10,000 portfolios to find optimal asset allocation on Indian equities. Efficient Frontier visualization in Python.</p>
+        <div class="project-tags">
+          <span>Monte Carlo</span><span>Efficient Frontier</span><span>CVaR</span><span>Sharpe</span>
+        </div>
+        <div class="project-stats">
+          <span>Sharpe: 7.64</span>
+          <span>10,000 simulations</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-lang ocaml">OCaml</span>
+          <div class="project-links">
+            <a href="https://github.com/Maaandip/market-data-fanout-ocaml" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Market Data Fan-out Multiplexer</h3>
+        <p>Async-based market data fan-out multiplexer in OCaml using Jane Street's Async library. Broadcasts live market ticks to multiple subscribers in parallel.</p>
+        <div class="project-tags">
+          <span>OCaml</span><span>Async</span><span>Jane Street</span><span>HFT</span>
+        </div>
+        <div class="project-stats">
+          <span>parallel delivery</span>
+          <span>dynamic subscribe</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-lang python">Python</span>
+          <div class="project-links">
+            <a href="https://github.com/Maaandip/pair-trading-strategy" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Pair Trading Strategy</h3>
+        <p>Statistical arbitrage using cointegration on Indian FMCG stocks (HINDUNILVR/NESTLEIND). Full backtest with z-score signals and equity curve.</p>
+        <div class="project-tags">
+          <span>Cointegration</span><span>ADF Test</span><span>Backtest</span><span>Arbitrage</span>
+        </div>
+        <div class="project-stats">
+          <span>77.24% return</span>
+          <span>Sharpe: 0.73</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- skills -->
+  <section class="section" id="skills">
+    <h2 class="section-title">skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>languages</h3>
+        <div class="skill-tags">
+          <span class="skill-tag primary">C++</span>
+          <span class="skill-tag primary">Python</span>
+          <span class="skill-tag primary">OCaml</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>quant & ml</h3>
+        <div class="skill-tags">
+          <span class="skill-tag primary">XGBoost</span>
+          <span class="skill-tag primary">LightGBM</span>
+          <span class="skill-tag primary">Monte Carlo</span>
+          <span class="skill-tag">Scikit-learn</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>systems</h3>
+        <div class="skill-tags">
+          <span class="skill-tag primary">Low-Latency</span>
+          <span class="skill-tag primary">Lock-Free DS</span>
+          <span class="skill-tag primary">Order Books</span>
+          <span class="skill-tag">FIX Protocol</span>
+          <span class="skill-tag">Memory Pools</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>tools</h3>
+        <div class="skill-tags">
+          <span class="skill-tag primary">Git</span>
+          <span class="skill-tag primary">VS Code</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Jupyter</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="section" id="contact">
+    <h2 class="section-title">contact</h2>
+    <div class="contact-container">
+      <p class="contact-text">
+        open to quant internships, HFT roles, and interesting projects.
+        feel free to reach out!
+      </p>
+      <div class="contact-links">
+        <a href="mailto:monodipmalakar00@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>monodipmalakar00@gmail.com</span>
+        </a>
+        <a href="https://github.com/Maaandip" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>github.com/Maaandip</span>
+        </a>
+        <a href="https://linkedin.com/in/monodip-malakar-770149366" target="_blank" class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <span>linkedin.com/in/monodip-malakar</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>built by monodip malakar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
